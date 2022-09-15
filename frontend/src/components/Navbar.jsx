@@ -2,8 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Search,ShoppingCartOutlined} from "@mui/icons-material";
 import Badge from '@mui/material/Badge';
-const Navbar = () => {
-  const Container = styled.div`
+const Container = styled.div`
     height: 60px;
   `;
 
@@ -51,6 +50,9 @@ font-size:14px;
 cursor:pointer;
 margin-left:25px;
 `
+
+const Navbar = () => {
+  
   return (
     <Container>
       <Wrapper>
